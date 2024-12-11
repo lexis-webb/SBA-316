@@ -1,0 +1,123 @@
+/* General Body Styling */
+body {
+    background: #8ebcba;
+    text-align: center;
+    font-family:
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro {
+    margin: 90px 0; 
+  }
+  
+  h1 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+  
+ 
+  #first {
+    margin-top: 10px;
+    color: #FFCD5D;
+  }
+  
+  #second {
+    color: #155824;
+  }
+  
+  #third {
+    color: #030f11;
+    margin-bottom: 30px;
+  }
+  
+
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    border-radius: 5px;
+    min-width: 65%;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    margin-right: 10px;
+    outline: none;
+  }
+  
+  #enter {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 9px;
+    color: #def3f7;
+    background-color: #70acb7;
+    transition: background-color 0.75s ease, color 0.75s ease;
+    font-weight: normal;
+    cursor: pointer;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  #enter:hover {
+    background-color: #02798F;
+    color: #FFCD5D;
+  }
+  
+
+  ul {
+    text-align: left;
+    margin-top: 20px;
+    padding-left: 0;
+  }
+  
+  li {
+    list-style: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: 2px solid #7e8587;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background: #4EB9CD;
+    transition: background-color 0.75s ease;
+  }
+  
+  li:hover {
+    background: #76CFE0;
+  }
+  
+  /* Button Inside List Item */
+  li > button {
+    font-weight: normal;
+    background: none;
+    border: none;
+    float: right;
+    color: #025f70;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Done Item Styling */
+  .done {
+    background: #51DF70 !important;
+    color: #00891E;
+  }
+  
+  /* Hidden Item (Delete) */
+  .delete {
+    display: none;
+  }
+  
